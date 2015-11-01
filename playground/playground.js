@@ -23,6 +23,7 @@ $('document').ready(function () {
         options: {
           'gettingstarted': 'Getting started',
           'tb-radiobuttonset': 'TB - Radio buttonset',
+          'tb-select2': 'TB - Select2 example',
           // 'tb-tag-select': 'TB - Tag select',
           // 'tb-multiple-select': 'TB - Multiple select',
           // 'tb-ordered-select': 'TB - Ordered select',
