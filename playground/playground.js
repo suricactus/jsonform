@@ -22,6 +22,12 @@ $('document').ready(function () {
         type: 'select',
         options: {
           'gettingstarted': 'Getting started',
+          'tb-radiobuttonset': 'TB - Radio buttonset',
+          // 'tb-tag-select': 'TB - Tag select',
+          // 'tb-multiple-select': 'TB - Multiple select',
+          // 'tb-ordered-select': 'TB - Ordered select',
+          // 'tb-tabs': 'TB - Tabbed object properties',
+          // 'tb-foreignkey': 'TB - Foreign key',
           'schema-basic': 'JSON Schema - A basic example',
           'schema-morecomplex': 'JSON Schema - Slightly more complex example',
           'schema-array': 'JSON Schema - Arrays',
