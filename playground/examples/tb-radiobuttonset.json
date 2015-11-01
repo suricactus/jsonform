@@ -1,0 +1,60 @@
+{
+  "value": {
+    "language": null
+  },
+  "schema": {
+    "main": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "language": {
+      "type": "string",
+      "title": "Best language",
+      "required": true,
+      "enum": [
+        "JavaScript",
+        "Python",
+        "PHP",
+        "Java",
+        "C++",
+        "other"
+      ]
+    },
+    "animal": {
+      "type": "string",
+      "title": "Best language",
+      "enum": [
+        "Dog",
+        "Cat",
+        "Unicorn"
+      ]
+    }
+  },
+  "form": [
+    {
+      "key": "main",
+      "title": "Not Required, No default from SCHEMA, no value from FORM, custom titles:",
+      "type": "radiobuttonset",
+      "titleMap": {
+        "true": "Yes",
+        "false": "No",
+        "null": "I don't know"
+      }
+    },
+    {
+      "key": "language",
+      "title": "Required languages, No default from SCHEMA, no value from FORM:",
+      "type": "radiobuttonset"
+    },
+    {
+      "key": "animal",
+      "title": "Not required animals, No default from SCHEMA, no value from FORM:",
+      "type": "radiobuttonset"
+    },
+    {
+      "type": "submit",
+      "value": "Зареди"
+    }
+  ]
+}
